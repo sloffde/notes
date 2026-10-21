@@ -1,0 +1,93 @@
+site_name: SLOFFDE 学习笔记
+site_url: https://sloffde.github.io/notes/
+repo_url: https://github.com/sloffde/notes
+repo_name: sloffde/notes
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - footnotes
+  - def_list
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+
+  - 首页: index.md
+  - 医学免责声明: disclaimer.md
+  - 贡献指南: 贡献指南.md
+  - 大一:
+    - 系统解剖学:
+      - 运动系统·骨学总论: 大一/系统解剖学/运动系统-骨学总论.md
+    - 组织学与胚胎学: 大一/组织学与胚胎学/_占位.md
+    - 有机化学: 大一/有机化学/_占位.md
+    - 大学物理（丙）: 大一/大学物理/_占位.md
+    - 普通化学实验（甲）: 大一/普通化学实验/_占位.md
+    - 高等数学: 大一/高等数学/_占位.md
+    - 普通化学（甲）: 大一/普通化学/_占位.md
+    - 思想道德与政治: 大一/思想道德与政治/_占位.md
+    - 形式与政策: 大一/形式与政策/_占位.md
+    - 大学英语Ⅳ: 大一/大学英语/_占位.md
+    - python程序设计: 大一/Python程序设计/_占位.md
+    - 中国近代史纲要: 大一/中国近代史纲要/_占位.md
+    - 大学化学实验（O）: 大一/大学化学实验/_占位.md
+  - 大二:
+    - 神经、精神与运动系统Ⅰ: 大二/神经精神与运动系统/_占位.md
+    - 心血管、呼吸、血液与泌尿系统Ⅰ: 大二/心血管呼吸血液与泌尿系统/_占位.md
+    - 消化与内分泌系统Ⅰ: 大二/消化与内分泌系统/_占位.md
+    - 医学免疫学: 大二/医学免疫学/_占位.md
+    - 医学统计学: 大二/医学统计学/_占位.md
+    - 病理与药理学基础: 大二/病理与药理学基础/_占位.md
+    - 医学遗传学: 大二/医学遗传学/_占位.md
+    - 人体生理学: 大二/人体生理学/_占位.md
+    - 脑与认知: 大二/脑与认知/_占位.md
+    - 医学细胞生物学: 大二/医学细胞生物学/_占位.md
+    - 医学生物化学与分子生物学: 大二/医学生物化学与分子生物学/_占位.md
+    - 病理生理学（乙）: 大二/病理生理学/_占位.md
+    - 生理科学实验: 大二/生理科学实验/_占位.md
+    - 中医学: 大二/中医学/_占位.md
+    - 病原生物学（甲）: 大二/病原生物学/_占位.md
+    - 医学心理学: 大二/医学心理学/_占位.md
+    - 预防医学: 大二/预防医学/_占位.md
+  - 大三:
+    - 诊断学（Ⅰ+Ⅱ）: 大三/诊断学/_占位.md
+    - 口腔科学: 大三/口腔科学/_占位.md
+    - 临床与局部解剖学: 大三/临床与局部解剖学/_占位.md
+    - 外科学总论: 大三/外科学总论/_占位.md
+    - 流行病学与循证医学: 大三/流行病学与循证医学/_占位.md
